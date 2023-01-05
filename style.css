@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); 
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+.header > img{
+
+}
+li{
+    display: flex;
+    flex: 0.4;
+}
+li > ul > a{
+     text-decoration: none;
+     list-style: none;
+     color: black;
+     font-family: 'Inter', sans-serif;
+     font-weight: 700;
+     color: hsl(233, 8%, 79%);
+}
+li > ul > a:hover{
+    color: hsl(5, 85%, 63%);
+    
+}
+.main{
+    margin-top: 3rem;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    display: flex;
+
+}
+.mainLeft{
+    flex: 0.4;
+}
+.mainleftTop > img{
+    width: 42rem;
+    height: 18rem;
+}
+.mainleftBottom{
+    display: flex;
+    
+}
+.mainleftBottom > .bottomLeft{
+    flex: 0.4;
+    font-family: 'Inter' , sans-serif;
+    font-size: 3rem;
+    font-weight:bold;
+    margin-top: 0.4rem;
+    
+}
+.bottomRight{
+    flex:0.6;
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    font-family: 'Inter' , sans-serif;
+}
+
+.bottomRight{
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bottomRight > p{
+    line-height: 1.5
+}
+.bottomRight > button{
+    background-color: hsl(5, 85%, 63%);
+    color: whitesmoke;
+    text-align: center;
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    font-size: 15px;
+    font-family: 'Inter' , sans-serif;
+    letter-spacing:4px;
+    cursor: pointer;
+}
+.attribution{
+    margin-top: 2rem;
+    text-align: center;
+}
+.mainRight{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 5%);
+    justify-content: space-around;
+    font-family: 'Inter';
+    margin-left: 2rem;
+    padding: 0 2rem;
+}
+.title1,.title2{
+    border-bottom: 2px solid hsl(236, 13%, 42%);
+}
+.title1 > p{
+    color: hsl(236, 13%, 42%);
+}
+.title2 > p{
+    color: hsl(236, 13%, 42%);
+}
+.title3 > p{
+    color: hsl(236, 13%, 42%);
+}
+.title1 > h3{
+    color: hsl(36, 100%, 99%);
+}
+.title2 > h3{
+    color: hsl(36, 100%, 99%);
+}
+.title3 > h3{
+    color:hsl(36, 100%, 99%);
+}
+/* Footer styling here */
+.footer{
+    width:83vw;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    gap: 1.5rem;
+    font-family: 'Inter' , sans-serif;
+}
+.footerLeft{
+    display: flex;
+    flex: 0.3;
+}
+.retro{
+    color: hsl(233, 8%, 79%);
+    margin-left: 1rem;
+}
+.retro > h4{
+    color: hsl(240, 100%, 5%);
+    font-weight: 700;
+}
+.retro > p{
+    color: hsl(236, 13%, 42%);
+    font-size: 0.9rem;
+}
+.retro > h3{
+    font-weight: 900;
+    font-size:1.5rem ;
+}
+.footerMiddle{
+    display: flex;
+    flex: 0.3;
+}
+.laptop{
+    color: hsl(233, 8%, 79%);
+    margin-left: 1rem;
+}
+.laptop > h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.laptop > h4{
+    color: hsl(240, 100%, 5%);
+    font-weight: 700;
+}
+.laptop > p {
+    color: hsl(236, 13%, 42%);
+    font-size: 0.9rem;
+}
+.footerRight{
+    display: flex;
+    flex: 0.32;
+}
+.growth{
+    color: hsl(233, 8%, 79%);
+    margin-left: 1rem;
+}
+.growth > h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.growth > h4{
+    color: hsl(240, 100%, 5%);
+    font-weight: 700;
+}
+.growth > p {
+    color: hsl(236, 13%, 42%);
+    font-size:0.9rem ;
+}
+@media only screen and (max-width:340px){
+    .main{
+        flex-direction: column;
+        
+    }
+}
